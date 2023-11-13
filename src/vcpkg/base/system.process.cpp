@@ -765,7 +765,7 @@ namespace
                             nullptr,
                             nullptr,
                             bInheritHandles,
-                            IDLE_PRIORITY_CLASS | CREATE_UNICODE_ENVIRONMENT | EXTENDED_STARTUPINFO_PRESENT |
+                            CREATE_UNICODE_ENVIRONMENT | EXTENDED_STARTUPINFO_PRESENT |
                                 dwCreationFlags,
                             call_environment,
                             working_directory.empty() ? nullptr : working_directory.data(),
